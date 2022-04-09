@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+
+            border: solid red 4px;
+            width: auto;
+            height: 685px;
+            background-image: url(dj.jpg);    
+        }
+        header{
+            border: solid red 4px;
+            height: 100px;
+            margin: 4px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 60px;
+            justify-content: space-around;
+            background-color: pink;
+            background-image: url(lulu.jpg);
+        }
+        nav{
+            border: solid red 4px;
+            height: 70px;
+            margin: 4px;
+        }
+        nav li{
+            display: inline-block;
+            padding: 5px;
+            background-color: violet;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+            padding: 5px;
+            border: solid red;
+            border-radius: 10px;
+            margin: 3px 15px 0 15px;
+        }
+        footer{
+            border: solid red;
+            height: 37px;
+            margin: 4PX;
+            overflow-y: auto;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+.box{
+    display: flex;
+}
+
+#box1{
+
+    width: 350px;
+    border: solid red 2px;
+}
+#box2{
+     width: 320px;
+     border: solid red 2px;
+}
+#box3{
+    width: 320px;
+    border: solid red 2px;
+}
+#box4{
+    width: 320px;
+    border: solid red 2px;
+}
+    </style>
+</head>
+<body>
+       <header>MUSICAL WORLD</header>
+       <nav>
+           <li>CLASSICAL</li>
+           <li>WESTERN</li>
+           <li>FOLK</li>
+           <li>MELODY</li>
+           <li>DJ</li>
+       </nav>
+       <div class="container"></div>
+   </div>
+   <div class="box">
+       <div id="box1"> <img src="spb.jpg"></div>
+       <div id="box2"> <img src="sid.jpg"></div>
+       <div id="box3"> <img src="dsp2.jpg"></div>
+       <div id="box4"> <img src="chitra.jpg"></div>
+
+    </div>
+   <header> MUSIC HEALS THE WOUNDS</header>
+</body>
+</html>
